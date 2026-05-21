@@ -69,24 +69,45 @@ python train_model.py
 python app.py
 Now visit 👉 http://127.0.0.1:5000/
 
- ## 🌍 Deployment on Render
-Push your code to GitHub.
-Go to Render → New → Web Service.
-Connect your repo.
-Make sure you have:
-requirements.txt → lists dependencies
-Procfile → tells Render how to run app:
+## Deployment on Render
+
+1. Push your code to GitHub.
+
+2. Go to Render → New → Web Service.
+
+3. Connect your GitHub repository.
+
+4. Make sure the project contains:
+
+```text
+requirements.txt   # Lists all dependencies
+Procfile           # Tells Render how to run the app
+```
+
+5. Add the following inside `Procfile`:
+
+```text
 web: gunicorn app:app
-Choose Python 3.10+ in Render.
-Deploy → Render gives you a live URL 🎉.
- ## 📊 Example Input
-Feature	Example Value
--Nitrogen (N)	45
--Phosphorus(P)	41
--Potassium (K)	54
--Temperature	27
--Humidity	65
--pH	6
-Rainfall	146
+```
+
+6. Choose Python 3.10+ in Render.
+
+7. Click Deploy.
+
+8. Render will generate a live deployment URL 🎉
+
+---
+
+## 📊 Example Input
+
+| Parameter | Value |
+|-----------|-------|
+| Nitrogen (N) | 90 |
+| Phosphorus (P) | 42 |
+| Potassium (K) | 43 |
+| Temperature | 20.87°C |
+| Humidity | 82.00% |
+| pH | 6.5 |
+| Rainfall | 202.93 mm |
 ## ✅ Example Output
 🌾 Recommended Crop: rice
