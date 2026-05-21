@@ -111,3 +111,5 @@ web: gunicorn app:app
 | Rainfall | 202.93 mm |
 ## ✅ Example Output
 🌾 Recommended Crop: rice
+
+![Project Screenshot](screenshot.png)
