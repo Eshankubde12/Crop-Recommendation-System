@@ -112,4 +112,4 @@ web: gunicorn app:app
 ## ✅ Example Output
 🌾 Recommended Crop: rice
 
-![Project Screenshot](screenshot.png)
+
