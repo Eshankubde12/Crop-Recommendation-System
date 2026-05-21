@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌱 Smart Crop Recommendation System
 
 A **machine learning powered web application** that recommends the most suitable crop to grow based on soil nutrients and environmental conditions.
@@ -30,3 +31,6 @@ A **machine learning powered web application** that recommends the most suitable
 
 ---
 
+=======
+# Crop-Recommendation-System
+>>>>>>> db621f91c72a8c7b95e95f3ab7ea0ef5c4a3b565
