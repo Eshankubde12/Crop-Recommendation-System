@@ -30,24 +30,29 @@ A **machine learning powered web application** that recommends the most suitable
 - **JavaScript (Fetch API)** (AJAX requests)
 
 ---
+## Project Structure
 
- ## 📂 Project Structure
+```text
 Crop-Recommendation-System/
-│── app.py               # Flask backend
-│── crop_model.pkl       # Saved ML model
-│── crop_data.csv        # Dataset
-│── train_model.py       # Model training script
-│── Procfile             # Deployment instruction
-│── requirements.txt     # Dependencies
-│── screenshot.png       # Webpage Sereenshot
+│
+├── app.py                  # Flask backend
+├── crop_model.pkl          # Saved ML model
+├── crop_data.csv           # Dataset
+├── train_model.py          # Model training script
+├── Procfile                # Deployment instruction
+├── requirements.txt        # Dependencies
+├── screenshot.png          # Webpage screenshot
+├── README.md
+│
 ├── templates/
-│   └── index.html       # Frontend UI
+│   └── index.html          # Frontend UI
 │
-├── static/
-│   ├── style.css        # Styling
-│   └── script.js        # Frontend logic
-│
-└── README.md
+└── static/
+    ├── style.css           # Styling
+    └── script.js           # Frontend logic
+```
+
+ 
 ## ⚙️ Local Setup (Run on Your PC)
 1. Clone the Repository
 git clone https://github.com/your-username/Crop-Recommendation-System.git
