@@ -76,12 +76,12 @@ Choose Python 3.10+ in Render.
 Deploy → Render gives you a live URL 🎉.
  ## 📊 Example Input
 Feature	Example Value
-Nitrogen (N)	45
-Phosphorus(P)	41
-Potassium (K)	54
-Temperature	27
-Humidity	65
-pH	6
+-Nitrogen (N)	45
+-Phosphorus(P)	41
+-Potassium (K)	54
+-Temperature	27
+-Humidity	65
+-pH	6
 Rainfall	146
-✅ Example Output
+## ✅ Example Output
 🌾 Recommended Crop: rice
