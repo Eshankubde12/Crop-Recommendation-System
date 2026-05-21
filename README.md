@@ -31,7 +31,7 @@ A **machine learning powered web application** that recommends the most suitable
 
 ---
 
-📂 Project Structure
+ ## 📂 Project Structure
 Crop-Recommendation-System/
 │── app.py               # Flask backend
 │── crop_model.pkl       # Saved ML model
@@ -48,7 +48,7 @@ Crop-Recommendation-System/
 │   └── script.js        # Frontend logic
 │
 └── README.md
-⚙️ Local Setup (Run on Your PC)
+## ⚙️ Local Setup (Run on Your PC)
 1. Clone the Repository
 git clone https://github.com/your-username/Crop-Recommendation-System.git
 cd Crop-Recommendation-System
@@ -64,7 +64,7 @@ python train_model.py
 python app.py
 Now visit 👉 http://127.0.0.1:5000/
 
-🌍 Deployment on Render
+ ## 🌍 Deployment on Render
 Push your code to GitHub.
 Go to Render → New → Web Service.
 Connect your repo.
@@ -74,7 +74,7 @@ Procfile → tells Render how to run app:
 web: gunicorn app:app
 Choose Python 3.10+ in Render.
 Deploy → Render gives you a live URL 🎉.
-📊 Example Input
+ ## 📊 Example Input
 Feature	Example Value
 Nitrogen (N)	45
 Phosphorus(P)	41
